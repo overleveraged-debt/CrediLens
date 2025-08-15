@@ -54,8 +54,8 @@ export function InteractiveFeatures() {
       icon: <Check />,
     },
     {
-      title: "Built for DSAs",
-      description: "Designed specifically for Indian DSAs and financial professionals.",
+      title: "Built for Finance Professionals",
+      description: "Designed specifically for Indian financial professionals and DSAs.",
       icon: <Users />,
     },
   ];
@@ -78,10 +78,10 @@ const Feature = ({ title, description, icon, index }) => {
       )}
     >
       {index < 4 && (
-        <div className="opacity-0 group-hover/feature:opacity-100 transition duration-200 absolute inset-0 h-full w-full bg-gradient-to-t from-white/5 to-transparent pointer-events-none" />
+        <div className="opacity-0 group-hover/feature:opacity-100 transition duration-200 absolute inset-0 h-full w-full bg-gradient-to-t from-blue-500/10 to-transparent pointer-events-none" />
       )}
       {index >= 4 && (
-        <div className="opacity-0 group-hover/feature:opacity-100 transition duration-200 absolute inset-0 h-full w-full bg-gradient-to-b from-white/5 to-transparent pointer-events-none" />
+        <div className="opacity-0 group-hover/feature:opacity-100 transition duration-200 absolute inset-0 h-full w-full bg-gradient-to-b from-blue-500/10 to-transparent pointer-events-none" />
       )}
       <div className="mb-4 relative z-10 px-10 text-white/60">
         {icon}
